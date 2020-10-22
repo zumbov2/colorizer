@@ -42,36 +42,36 @@ colorizer::colorize(
 ### comaprison.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
   
-  
 ## Types of juxtapositions
 The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following *juxtapositions types* are currently available:
 
 ### `type = "side-by-side"`
-see above
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison1.png" width="300">  
+*Eiffel Tower during the 1889 Exposition Universelle*
 
 ### `type = "stacked"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison2.png" width="300">  
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison2.png" width="300">  
 
 ### `type = "c-focus"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison3.png" width="300">  
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison3.png" width="300">  
 
 ### `type = "h-focus"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison4.png" width="300"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison4.png" width="300"> 
 
 ### `type = "v-focus"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison5.png" width="300"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison5.png" width="300"> 
 
 ### `type = "h-split"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison6.png" width="300"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison6.png" width="300"> 
 
 ### `type = "v-split"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison7.png" width="300"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison7.png" width="300"> 
 
 ### `type = "d-split"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison8.png" width="300"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison8.png" width="300"> 
 
 ### `type = "u-animate"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison9.gif" width="300"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison9.gif" width="300"> 
 
 ### `type = "s-animate"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison10.gif" width="300"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison10.gif" width="300"> 
