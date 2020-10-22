@@ -45,7 +45,7 @@ colorizer::colorize(
 The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following *juxtapositions types* are currently available:
 
 ### `type = "side-by-side"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison1.png" width="100">  
+see above 
 
 ### `type = "stacked"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison2.png" width="100">  
