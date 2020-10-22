@@ -26,3 +26,7 @@ colorizer::colorize(
   colorizer::juxtapose(type = "side-by-side") %>% 
   colorizer::clsave(destfile = "comaprison.png") 
  ```
+
+<img src="https://github.com/zumbov2/colorizer/blob/master/plots/colorized.png" width="500">  
+
+<img src="https://github.com/zumbov2/colorizer/blob/master/plots/comaprison.png" width="500">  
