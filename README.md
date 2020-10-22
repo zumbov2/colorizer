@@ -48,3 +48,28 @@ The comparisons are made using the [magick package](https://github.com/ropensci/
 see above
 
 ### `juxtapose(type = "stacked")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison2.png" width="300">  
+
+### `juxtapose(type = "c-focus")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison3.png" width="300">  
+
+### `juxtapose(type = "h-focus")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison4.png" width="300"> 
+
+### `juxtapose(type = "v-focus")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison5.png" width="300"> 
+
+### `juxtapose(type = "h-split")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison6.png" width="300"> 
+
+### `juxtapose(type = "v-split")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison7.png" width="300"> 
+
+### `juxtapose(type = "d-split")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison8.png" width="300"> 
+
+### `juxtapose(type = "u-animate")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison9.gif" width="300"> 
+
+### `juxtapose(type = "s-animate")`
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison10.gif" width="300"> 
