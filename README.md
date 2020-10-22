@@ -6,9 +6,9 @@
 
 
 ## Installation
-The latest version is available on GitHub (0.2.1):
+The latest version is available on GitHub (0.1.0):
 
 ```r
-install.packages("remotes")
-remotes::install_github("zumbov2/colorizer")
+install.packages("devtools")
+devtools::install_github("zumbov2/colorizer")
 ```
