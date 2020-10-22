@@ -9,6 +9,11 @@
 The latest version is available on GitHub (0.1.0):
 
 ```r
+<<<<<<< HEAD
 install.packages("devtools")
 devtools::install_github("zumbov2/colorizer")
+=======
+install.packages("remotes")
+remotes::install_github("zumbov2/colorizer")
+>>>>>>> c13f52192b1fadb546481cdc0863e0f02929dc7a
 ```
