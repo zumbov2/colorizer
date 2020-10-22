@@ -31,14 +31,14 @@ colorizer::colorize(
   # Comparing colorized image to original
   juxtapose(type = "side-by-side") %>% 
   
-  # Saving comaprsion
-  clsave(destfile = "comaprison.png") 
+  # Saving comparsion
+  clsave(destfile = "comparison.png") 
  ```
 
 ### colorized.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/colorized.png" width="300">  
   
-### comaprison.png
+### comparison.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
   
 ## Types of juxtapositions
