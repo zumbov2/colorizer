@@ -10,5 +10,5 @@ The latest version is available on GitHub (0.2.1):
 
 ```r
 install.packages("remotes")
-remotes::install_github("zumbov2/swissparl")
+remotes::install_github("zumbov2/colorizer")
 ```
