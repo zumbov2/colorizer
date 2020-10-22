@@ -18,15 +18,24 @@ devtools::install_github("zumbov2/colorizer")
 sadsadf
 
 ```r
+# Saving colorized image
 colorizer::colorize(
   img = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg", 
   key = my_key
   ) %>%
-  colorizer::clsave(destfile = "colorized.png") %>% 
-  colorizer::juxtapose(type = "side-by-side") %>% 
-  colorizer::clsave(destfile = "comaprison.png") 
+  colorizer::clsave(destfile = "colorized.png")
  ```
 
-<img src="https://github.com/zumbov2/colorizer/blob/master/plots/colorized.png" width="500">  
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/colorized.png" width="500">  
 
-<img src="https://github.com/zumbov2/colorizer/blob/master/plots/comaprison.png" width="500">  
+```r
+# Saving colorized image
+colorizer::colorize(
+  img = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg", 
+  key = my_key
+  ) %>%
+  colorizer::juxtapose(type = "side-by-side") %>% 
+  colorizer::clsave(destfile = "comaprison.png") 
+ ``` 
+
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="500">  
