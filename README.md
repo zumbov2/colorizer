@@ -37,7 +37,7 @@ colorizer::colorize(
 
 ### colorized.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/colorized.png" width="300">    
-[Photo of a breadfruit, c. 1870](https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg)
+[Photo of a breadfruit](https://en.wikipedia.org/wiki/Black_and_white), c. 1870
   
 ### comaprison.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
