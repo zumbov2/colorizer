@@ -42,34 +42,34 @@ colorizer::colorize(
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
   
 ## Types of juxtapositions
-The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following *juxtapositions types* are currently available:
+The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following **juxtapositions types** are currently available:
 
 ### `type = "side-by-side"`
 see above 
 
 ### `type = "stacked"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison2.png" width="100">  
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison2.png" width="200">  
 
 ### `type = "c-focus"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison3.png" width="100">  
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison3.png" width="200">  
 
 ### `type = "h-focus"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison4.png" width="100"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison4.png" width="200"> 
 
 ### `type = "v-focus"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison5.png" width="100"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison5.png" width="200"> 
 
 ### `type = "h-split"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison6.png" width="100"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison6.png" width="200"> 
 
 ### `type = "v-split"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison7.png" width="100"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison7.png" width="200"> 
 
 ### `type = "d-split"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison8.png" width="100"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison8.png" width="200"> 
 
 ### `type = "u-animate"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison9.gif" width="100"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison9.gif" width="200"> 
 
 ### `type = "s-animate"`
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison10.gif" width="100"> 
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/comparison10.gif" width="200"> 
