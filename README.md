@@ -14,8 +14,10 @@ The latest version is available on GitHub (0.1.0):
 install.packages("devtools")
 devtools::install_github("zumbov2/colorizer")
 ```
-## An example
+# Functions
+The package provides three functions/verbs: `colorize()` to perform API requests, `juxtapose()` to create different comparisons of original and colorized images, and `clsave()` to save colorized images and comparisons.
 
+## An example
 ```r
 # API call
 colorizer::colorize(
@@ -37,3 +39,5 @@ colorizer::colorize(
 estfile = "comaprison.png") 
 
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
+
+## Types of juxtapositions
