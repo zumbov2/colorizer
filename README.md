@@ -18,13 +18,11 @@ devtools::install_github("zumbov2/colorizer")
 sadsadf
 
 ```r
-library(colorizer)
-
-colorize(
+colorizer::colorize(
   img = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg", 
   key = my_key
   ) %>%
-  clsave(destfile = "colorized.png") %>% 
-  juxtapose(type = "side-by-side") %>% 
-  clsave(destfile = "comaprison.png") 
+  colorizer::clsave(destfile = "colorized.png") %>% 
+  colorizer::juxtapose(type = "side-by-side") %>% 
+  colorizer::clsave(destfile = "comaprison.png") 
  ```
