@@ -14,3 +14,17 @@ The latest version is available on GitHub (0.1.0):
 install.packages("devtools")
 devtools::install_github("zumbov2/colorizer")
 ```
+## An example
+sadsadf
+
+```r
+library(colorizer)
+
+colorize(
+  img = "https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg", 
+  key = my_key
+  ) %>%
+  clsave(destfile = "colorized.png") %>% 
+  juxtapose(type = "side-by-side") %>% 
+  clsave(destfile = "comaprison.png") 
+ ```
