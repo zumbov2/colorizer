@@ -35,41 +35,43 @@ colorizer::colorize(
   clsave(destfile = "comaprison.png") 
  ```
 
-**colorized.png**
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/colorized.png" width="300">  
-
-**comaprison.png**
+### colorized.png
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/colorized.png" width="300">    
+[Photo of a breadfruit, c. 1870](https://upload.wikimedia.org/wikipedia/commons/9/9e/Breadfruit.jpg)
+  
+### comaprison.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
-
+  
+  
 ## Types of juxtapositions
 The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following *juxtapositions types* are currently available:
 
-** `juxtapose(type = "side-by-side")`**
+### `type = "side-by-side"`
 see above
 
-** `juxtapose(type = "stacked")`**
+### `type = "stacked"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison2.png" width="300">  
 
-** `juxtapose(type = "c-focus")`**
+### `type = "c-focus"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison3.png" width="300">  
 
-** `juxtapose(type = "h-focus")`**
+### `type = "h-focus"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison4.png" width="300"> 
 
-** `juxtapose(type = "v-focus")`**
+### `type = "v-focus"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison5.png" width="300"> 
 
-** `juxtapose(type = "h-split")`**
+### `type = "h-split"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison6.png" width="300"> 
 
-** `juxtapose(type = "v-split")`**
+### `type = "v-split"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison7.png" width="300"> 
 
-** `juxtapose(type = "d-split")`**
+### `type = "d-split"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison8.png" width="300"> 
 
-** `juxtapose(type = "u-animate")`**
+### `type = "u-animate"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison9.gif" width="300"> 
 
-** `juxtapose(type = "s-animate")`**
+### `type = "s-animate"`
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison10.gif" width="300"> 
