@@ -17,7 +17,8 @@ devtools::install_github("zumbov2/colorizer")
 # Functions
 The package provides **three functions/verbs**: `colorize()` to perform API requests, `juxtapose()` to create different comparisons of original and colorized images, and `clsave()` to save colorized images and comparisons.
 
-## An example
+## Examples
+### Photo of a Breadfruit (approx. 1870)
 ```r
 # API call
 colorizer::colorize(
@@ -26,20 +27,30 @@ colorizer::colorize(
   ) %>%
   
   # Saving colorized image
-  clsave(destfile = "colorized.png") %>% 
+  colorizer::clsave(destfile = "colorized.png") %>% 
   
   # Comparing colorized image to original
-  juxtapose(type = "side-by-side") %>% 
+  colorizer::juxtapose(type = "side-by-side") %>% 
   
   # Saving comparsion
-  clsave(destfile = "comparison.png") 
+  colorizer::clsave(destfile = "comparison.png") 
  ```
 
-### colorized.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/colorized.png" width="300">  
   
-### comparison.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
+
+### John Wayne and Gail Russell (1947)
+```r
+colorizer::colorize(
+  img = "https://cdn.pixabay.com/photo/2014/07/16/03/49/john-wayne-394468_1280.jpg", 
+  key = my_key
+  ) %>%
+  colorizer::juxtapose() %>% 
+  colorizer::clsave("john-wayne.jpg") 
+ ```
+
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/john-wayne.jpg" width="300">  
   
 ## Types of juxtaposition
 The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following **juxtaposition types** are currently available:
