@@ -40,6 +40,19 @@ colorizer::colorize(
   
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
 
+### Children (approx. 1920)
+```r
+colorizer::colorize(
+  img = "https://cdn.pixabay.com/photo/2013/02/13/22/38/children-81487_1280.jpg", 
+  key = my_key,
+  pane = "none"
+  ) %>% 
+  juxtapose() %>% 
+  clsave("children1920.jpg")
+ ```
+
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/children1920.jpg" width="300">  
+
 ### John Wayne and Gail Russell (1947)
 ```r
 colorizer::colorize(
