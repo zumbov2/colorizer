@@ -33,9 +33,12 @@ colorize_wh <- function(img, key, pane) {
 
   } else {
 
+    if (is.null(httr::content(response)[["status"]])) warning("No valid image found.")
+    if (!is.null(httr::content(response)[["status"]])) warning(httr::content(response)[["status"]])
+
     response <- tibble::tibble(
       request = img,
-      response = httr::content(response)[["status"]]
+      response = NA
     )
 
   }
@@ -443,4 +446,38 @@ save_col_wh <- function(url, destfile, i) {
 
   save_col(url, destfile)
 
-  }
+}
+
+#' @noRd
+check_pane <- function(pane) {
+
+  if (is.null(pane)) stop("pane must not be NULL.")
+  if (!pane[1] %in% c("plot", "view", "none")) stop("pane not specified correctly.")
+
+}
+
+#' @noRd
+check_type <- function(type) {
+
+  if (is.null(type)) stop("type must not be NULL.")
+  if (!type[1] %in% c(
+    "side-by-side", "stacked", "c-focus", "h-focus", "v-focus",
+    "h-split", "v-split", "d-split", "u-animate", "s-animate")
+    ) stop("type not specified correctly.")
+
+}
+
+#' @importFrom magrittr "%>%"
+#' @importFrom dplyr filter
+#' @importFrom stringr str_detect
+#' @noRd
+check_response <- function(response) {
+
+  response2 <- response %>%
+    dplyr::filter(stringr::str_detect(response, "https://api.deepai.org/job-view-file/"))
+
+  if (nrow(response2) == 0) stop ("No URLs of colorized images found in response.")
+  if (nrow(response2) < nrow(response)) warning ("Not all entries have valid URLs of colorized images.")
+  return(response2)
+
+}

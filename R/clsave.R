@@ -21,8 +21,7 @@
 clsave <- function(response, destfile = "") {
 
   # Remove Non-Responses
-  response <- response %>% dplyr::filter(stringr::str_detect(response, "https://api.deepai.org/job-view-file/"))
-  if (nrow(response) == 0) stop ("No URLs of colorized images found in response.")
+  response <- check_response(response)
 
   # Save Colorized Images from URL
   if (ncol(response) == 2) {

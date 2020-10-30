@@ -42,7 +42,7 @@ colorizer::colorize(
 ### comaprison.png
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
   
-## Types of juxtapositions
+## Types of juxtaposition
 The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following *juxtapositions types* are currently available:
 
 ### `type = "side-by-side"`

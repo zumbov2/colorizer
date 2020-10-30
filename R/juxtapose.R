@@ -33,9 +33,12 @@
 juxtapose <- function(response, type = c("side-by-side", "stacked", "c-focus", "h-focus", "v-focus", "h-split", "v-split", "d-split", "u-animate", "s-animate"),
                       pane = c("plot", "view", "none")) {
 
+  # Check arguments
+  check_type(type)
+  check_pane(pane)
+
   # Remove Non-Responses
-  response <- response %>% dplyr::filter(stringr::str_detect(response, "https://api.deepai.org/job-view-file/"))
-  if (nrow(response) == 0) stop ("No URLs of colorized images found in response.")
+  response <- check_response(response)
 
   # Juxtapose
   jp <- purrr::map2_dfr(

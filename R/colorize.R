@@ -2,15 +2,16 @@
 #'
 #' \code{colorize} calls the DeOldify image colorization API on DeepAI.
 #'
-#' @param img path or url to the images to be colorized.
-#' @param key DeepAI api-key.
+#' @param img path or URL to the images to be colorized.
+#' @param key DeepAI API key.
 #' @param pane defines in which pane the image is displayed: \code{plot}, \code{view} or \code{none}.
 #'
-#' @details With the standard api-key a few queries are possible. After registration on DeepAI
+#' @details With the default API key a few queries are possible. After registration on DeepAI
 #'    \url{https://deepai.org/}, around 5000 free requests are currently possible.
 #'
-#' @return A tibble with the file locations of the original images and the response urls to
-#'    the colorized images or status messages.
+#' @return A tibble with the file locations of the original images and the response URLs to
+#'    the colorized images. The latter expire after some time. It is recommended to save the
+#'    colorized images.
 #'
 #' @examples
 #' \dontrun{
@@ -21,6 +22,9 @@
 #' @importFrom purrr map_dfr
 colorize <- function(img, key = "quickstart-QUdJIGlzIGNvbWluZy4uLi4K", pane = c("plot", "view", "none")) {
 
+  # Check arguments
+  check_pane(pane)
+
   # Colorize
   response <- purrr::map_dfr(
     img,
@@ -30,6 +34,6 @@ colorize <- function(img, key = "quickstart-QUdJIGlzIGNvbWluZy4uLi4K", pane = c(
     )
 
   # Return response
-  return(response)
+  return(invisible(response))
 
 }

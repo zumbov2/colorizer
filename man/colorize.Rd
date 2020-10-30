@@ -11,21 +11,22 @@ colorize(
 )
 }
 \arguments{
-\item{img}{path or url to the images to be colorized.}
+\item{img}{path or URL to the images to be colorized.}
 
-\item{key}{DeepAI api-key.}
+\item{key}{DeepAI API key.}
 
 \item{pane}{defines in which pane the image is displayed: \code{plot}, \code{view} or \code{none}.}
 }
 \value{
-A tibble with the file locations of the original images and the response urls to
-   the colorized images or status messages.
+A tibble with the file locations of the original images and the response URLs to
+   the colorized images. The latter expire after some time. It is recommended to save the
+   colorized images.
 }
 \description{
 \code{colorize} calls the DeOldify image colorization API on DeepAI.
 }
 \details{
-With the standard api-key a few queries are possible. After registration on DeepAI
+With the default API key a few queries are possible. After registration on DeepAI
    \url{https://deepai.org/}, around 5000 free requests are currently possible.
 }
 \examples{

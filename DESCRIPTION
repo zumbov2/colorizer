@@ -1,11 +1,10 @@
 Package: colorizer
 Type: Package
-Title: Colorize and Restore Old Images Using the 'DeOldify' Image
-        Colorization API on 'DeepAI'
+Title: Colorize Old Images Using the 'DeOldify' Image Colorization API
 Version: 0.1.0
 Authors@R: person("David", "Zumbach", , "david.zumbach@gfzb.ch", c("aut", "cre"))
-Description: Call the 'DeOldify' <https://github.com/jantic/DeOldify> image 
-    colorization API on 'DeepAI'<https://deepai.org/machine-learning-model/colorizer> 
+Description: Call the 'DeOldify' <https://github.com/jantic/DeOldify> image
+    colorization API on 'DeepAI'<https://deepai.org/machine-learning-model/colorizer>
     to colorize black and white images.
 License: MIT + file LICENSE
 URL: https://github.com/zumbov2/colorizer
@@ -18,6 +17,6 @@ RoxygenNote: 7.1.1
 Imports: httr, magick, purrr, dplyr, stringr, tibble, magrittr
 Suggests: gifski
 NeedsCompilation: no
-Packaged: 2020-10-22 10:52:56 UTC; david
+Packaged: 2020-10-30 22:02:43 UTC; david
 Author: David Zumbach [aut, cre]
 Maintainer: David Zumbach <david.zumbach@gfzb.ch>
