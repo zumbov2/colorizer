@@ -18,7 +18,7 @@ devtools::install_github("zumbov2/colorizer")
 The package provides **three functions/verbs**: `colorize()` to perform API requests, `juxtapose()` to create different comparisons of original and colorized images, and `clsave()` to save colorized images and comparisons.
 
 ## Examples
-### Photo of a Breadfruit (approx. 1870)
+### Breadfruit, approx. 1870
 ```r
 # API call
 colorizer::colorize(
@@ -40,7 +40,7 @@ colorizer::colorize(
   
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
 
-### Children (approx. 1920)
+### Children, approx. 1920
 ```r
 colorizer::colorize(
   img = "https://cdn.pixabay.com/photo/2013/02/13/22/38/children-81487_1280.jpg", 
@@ -51,9 +51,9 @@ colorizer::colorize(
   clsave("children1920.jpg")
  ```
 
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/children1920.jpg" width="300">  
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/children1920.jpg" width="600">  
 
-### John Wayne and Gail Russell (1947)
+### John Wayne and Gail Russell, 1940s
 ```r
 colorizer::colorize(
   img = "https://cdn.pixabay.com/photo/2014/07/16/03/49/john-wayne-394468_1280.jpg", 
