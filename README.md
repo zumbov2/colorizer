@@ -72,7 +72,7 @@ colorizer::colorize(
   colorizer::clsave("Wayne-Russel.jpg") 
  ```
 
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/Wayne-Russel.jpg" width="300">  
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/Wayne-Russel.jpg" width="600">  
   
 ## Types of juxtaposition
 The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following **juxtaposition types** are currently available:
