@@ -44,9 +44,8 @@ colorizer::colorize(
 colorizer::colorize(
   img = "https://cdn.pixabay.com/photo/2013/02/13/22/38/children-81487_1280.jpg", 
   key = my_key,
-  pane = "none"
   ) %>% 
-  juxtapose() %>% 
+  juxtapose("side-by-side") %>% 
   clsave("children1920.jpg")
  ```
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/children1920.jpg" width="600">  
@@ -57,7 +56,7 @@ colorizer::colorize(
   img = "diskus1936.jpg", 
   key = my_key
   ) %>%
-  colorizer::juxtapose() %>% 
+  colorizer::juxtapose("side-by-side") %>% 
   colorizer::clsave("HansZumbach.jpg") 
  ```
 
@@ -69,11 +68,11 @@ colorizer::colorize(
   img = "https://cdn.pixabay.com/photo/2014/07/16/03/49/john-wayne-394468_1280.jpg", 
   key = my_key
   ) %>%
-  colorizer::juxtapose() %>% 
-  colorizer::clsave("john-wayne.jpg") 
+  colorizer::juxtapose("side-by-side") %>% 
+  colorizer::clsave("Wayne-Russel.jpg") 
  ```
 
-<img src="https://github.com/zumbov2/colorizer/blob/master/img/john-wayne.jpg" width="300">  
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/Wayne-Russel.jpg" width="300">  
   
 ## Types of juxtaposition
 The comparisons are made using the [magick package](https://github.com/ropensci/magick) – for platform-specific dependencies please see the section [Installation](https://github.com/ropensci/magick#Installation). The following **juxtaposition types** are currently available:
