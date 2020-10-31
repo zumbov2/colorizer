@@ -35,12 +35,11 @@ colorizer::colorize(
   # Saving comparsion
   colorizer::clsave(destfile = "comparison.png") 
  ```
-
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/colorized.png" width="300">  
-  
+
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/comaprison.png" width="600">  
 
-### Children, approx. 1920
+### Children, 1920s
 ```r
 colorizer::colorize(
   img = "https://cdn.pixabay.com/photo/2013/02/13/22/38/children-81487_1280.jpg", 
@@ -50,8 +49,19 @@ colorizer::colorize(
   juxtapose() %>% 
   clsave("children1920.jpg")
  ```
-
 <img src="https://github.com/zumbov2/colorizer/blob/master/img/children1920.jpg" width="600">  
+
+### My Grandpa, 1936
+```r
+colorizer::colorize(
+  img = "diskus1936.jpg", 
+  key = my_key
+  ) %>%
+  colorizer::juxtapose() %>% 
+  colorizer::clsave("HansZumbach.jpg") 
+ ```
+
+<img src="https://github.com/zumbov2/colorizer/blob/master/img/HansZumbach.jpg" width="600">  
 
 ### John Wayne and Gail Russell, 1940s
 ```r
