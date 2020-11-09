@@ -1,6 +1,7 @@
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/colorizer)](https://cran.r-project.org/package=colorizer)
 ![Lifecycle](https://img.shields.io/badge/lifecycle-maturing-orange.svg)
 [![Build Status](https://travis-ci.org/zumbov2/colorizer.svg?branch=master)](https://travis-ci.org/zumbov2/colorizer)
+[![cranlogs](https://cranlogs.r-pkg.org/badges/grand-total/colorizer)](http://cran.rstudio.com/web/packages/colorizer/index.html)
 
 # colorizer
 This R package is an interface to the awesome [DeOldify image colorization API](https://github.com/jantic/DeOldify) on [DeepAI](https://deepai.org/machine-learning-model/colorizer), providing the possibility to **colorize and restore old images**. More about the NoGAN learning method used to train DeOldify can be found [here](https://www.fast.ai/2019/05/03/decrappify/).
