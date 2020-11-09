@@ -8,8 +8,11 @@ This R package is an interface to the awesome [DeOldify image colorization API](
 The default api-key can be used to make a **few requests**. After [registration on DeepAI](https://deepai.org/), around **5000 requests** are currently (Oct 2020) possible within the **free service**.
 
 ## Installation
-The latest version is available on GitHub (0.1.0):
-
+Version 0.1.0 is on CRAN and can be installed as follows:
+```r
+install.packages("colorizer")
+```
+Install from GitHub for a regularly updated version (latest: 0.1.0):
 ```r
 install.packages("devtools")
 devtools::install_github("zumbov2/colorizer")
